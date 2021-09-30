@@ -36,4 +36,8 @@ public class Funcionario{
     public String getDepartamento(){
         return this.departamento;
     }
+
+    public double bonificacao(){
+        return this.salario*0.1;
+    }
 }
